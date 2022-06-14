@@ -38,7 +38,7 @@ Run the following scripts in the given order –
 1. `get_availability.py`: gets the months for which data is available for each site
 2. `check_availability.py`: parses the JSON response from #1 into a list
 3. `expedite.py`: populates the *params_query* and *params_ids* columns in the **sites** table
-4. `setup_pull.py`: edit this script to setup the dates for which you need to get data ([lines 37-39](https://github.com/gsidhu/cpcbccr/blob/master/code/setup_pull.py#L37)); running this script sets up all the requests that needs to be called to pull the data
+4. `setup_pull.py`: edit this script to setup the dates for which you need to get data ([lines 37-39](./code/setup_pull.py#L37)); running this script sets up all the requests that needs to be called to pull the data
 5. `pull.py`: pulls the data setup in the previous script; data received is a JSON.
 6. `parse.py`: parses the JSON data and creates the final **data** table in db
 
