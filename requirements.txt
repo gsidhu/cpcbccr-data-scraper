@@ -1,0 +1,12 @@
+alembic==1.7.7
+banal==1.0.6
+certifi==2022.5.18.1
+charset-normalizer==2.0.12
+dataset==1.5.2
+greenlet==1.1.2
+idna==3.3
+Mako==1.2.0
+MarkupSafe==2.1.1
+requests==2.27.1
+SQLAlchemy==1.4.36
+urllib3==1.26.9

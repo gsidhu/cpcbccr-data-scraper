@@ -1,0 +1,16 @@
+{
+  "name": "cpcbccr-data-scraper",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Scrapes data from CPCB's CCR dashboard.",
+  "exports": "./cpcb_station_params.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Gurjot Sidhu",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.22.1"
+  }
+}
