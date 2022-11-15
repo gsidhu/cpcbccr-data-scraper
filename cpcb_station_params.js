@@ -6,7 +6,7 @@
 import fs from 'fs';
 import playwright from 'playwright';
 
-let URL = "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing/data"
+let URL = "https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing/caaqm-comparison-data"
 
 let sites = JSON.parse(fs.readFileSync('./sites.json', 'utf8'));
 let result = []
